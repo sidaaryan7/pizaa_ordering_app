@@ -27,9 +27,6 @@ Route::get('/pizzas/{id}','PizzaController@show')->name('pizzas.show')->middlewa
 
 Route::delete('/pizzas/{id}','PizzaController@destroy')->name('pizzas.destroy')->middleware('auth');
 
-Auth::routes([
-    'register'=> false
-
-]);
+Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
