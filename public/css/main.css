@@ -155,3 +155,22 @@ a.back {
   text-decoration: none !important;
 }
 
+@media only screen and (max-width:740px){
+  .custom{
+    position: absolute;
+    right: 15rem;
+    padding: 1rem;
+    
+  }
+  
+  .banner{
+    position: relative;
+    top: 3rem;
+    width: 100%;
+    height: auto;
+  }
+  .title{
+    position: relative;
+    top: 2rem;
+  }
+}

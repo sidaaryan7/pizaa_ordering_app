@@ -3,7 +3,7 @@
         @section('content')
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
-                <div class="top-right links">
+                <div class="custom top-right links">
                     @auth
                         <a href="{{ url('/home') }}">Home</a>
                     @else
@@ -17,7 +17,7 @@
             @endif
 
             <div class="content">
-                <img src="/img/pizza-house.png" alt="pizza house logo">
+                <img class="banner" src="/img/pizza-house.png" alt="pizza house logo">
                 <div class="title m-b-md">
                     The Noida's best pizzas
                 </div>
