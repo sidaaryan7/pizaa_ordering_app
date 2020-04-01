@@ -77,3 +77,15 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+# pizaa_ordering_app
+
+
+for login
+id:sidaaryan7@gmail.com
+pass:qwerty@12345
+
+when u create databse db name should be 
+pizzahouse
+
+after db creation and connection established
+migration can be done
